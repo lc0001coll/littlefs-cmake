@@ -4,7 +4,7 @@ project(littlefs C)
 # Collect core sources (exclude test/runner programs)
 file(GLOB LFS_CORE_SRCS
   "${CMAKE_CURRENT_SOURCE_DIR}/*.c"
-  "${CMAKE_CURRENT_SOURCE_DIR}/bd/*.c"
+  # "${CMAKE_CURRENT_SOURCE_DIR}/bd/*.c"
 )
 
 # Remove test/runner sources that build executables
